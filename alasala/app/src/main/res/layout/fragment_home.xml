@@ -1,0 +1,108 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".java.home.Home"
+    android:id="@+id/home">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="227dp"
+        android:layout_height="181dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="99dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="292dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="0dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/piclan"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="178dp"
+        android:layout_height="216dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="215dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="men"
+        app:cardBackgroundColor="#91C0FB"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="117dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/me1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="120dp"
+            android:text="Men"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="167dp"
+        android:layout_height="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="551dp"
+        android:layout_marginEnd="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="women"
+        app:cardBackgroundColor="#91C0FB"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wo1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="120dp"
+            android:text="Women"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_cart" translatable="false">Cart</string>
+    <string name="Dagger" translatable="false">Dagger</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="search">Search</string>
+    <string name="new_user_sign_up">New User? SIGN UP</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="profile">Profile</string>
+    <string name="logout">LOGOUT</string>
+    <string name="about">About</string>
+    <string name="give_us_a_feedback">Give us a feedback</string>
+    <string name="login">Login</string>
+    <string name="price">price</string>
+    <string name="title_order_history">Order History</string>
+
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "408973871587",
+    "firebase_url": "https://alasala-55043-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "alasala-55043",
+    "storage_bucket": "alasala-55043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408973871587:android:75cfb8598d639b193578d6",
+        "android_client_info": {
+          "package_name": "com.app.alasala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhB79Z7q8u59VwaSsfolQWy-i9uwPJUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
