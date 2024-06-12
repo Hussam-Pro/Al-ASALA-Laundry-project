@@ -68,7 +68,7 @@ public class Signup extends AppCompatActivity {
         if (TextUtils.isEmpty(usertxt) || TextUtils.isEmpty(emailtxt) || TextUtils.isEmpty(PhoneNumber) || TextUtils.isEmpty(passwordtxt) || TextUtils.isEmpty(conpasstxt)) {
             Toast.makeText(this, "Please fill all the fields!", Toast.LENGTH_SHORT).show();
         } else if (!passwordtxt.equals(conpasstxt)) {
-            Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Passwords not match", Toast.LENGTH_SHORT).show();
         } else {
             firebaseAuth.createUserWithEmailAndPassword(emailtxt, passwordtxt).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override

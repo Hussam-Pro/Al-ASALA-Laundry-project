@@ -95,8 +95,8 @@ public class Profile extends AppCompatActivity {
     }
 
     private void sendFeedback() {
-        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "alasalaapp1122@gmail.com", null));
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Feedback for Your App");
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("send mail to", "alasalaapp1122@gmail.com", null));
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Feedback for our App");
         startActivity(Intent.createChooser(emailIntent, "Send feedback"));
     }
 

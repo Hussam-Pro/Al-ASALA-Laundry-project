@@ -108,14 +108,14 @@ public class OrderHistory extends AppCompatActivity {
                             }
                             adapter.notifyDataSetChanged();
                             if (myOrders.isEmpty()) {
-                                Toast.makeText(this, "No orders found.", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(this, "No orders found", Toast.LENGTH_SHORT).show();
                             }
                         } else {
-                            Toast.makeText(this, "Failed to load orders.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this, "Failed to load orders", Toast.LENGTH_SHORT).show();
                         }
                     });
         } else {
-            Toast.makeText(this, "No user logged in.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "No user logged in", Toast.LENGTH_SHORT).show();
         }
     }
 }
